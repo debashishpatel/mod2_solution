@@ -9,14 +9,16 @@ h1 {
   text-align: center;
 }
 
+.row,.col{
+  margin: 0;
+}
 
 div#container {
   display: inline-block;
-  left: 10px;
+  /* left: 10px; */
   background-color: #999999;
   border: 2px solid black;
-  margin-left: auto;
-  margin-right: auto;
+  margin: .5rem;
   width: 100%;
 }
 
@@ -30,6 +32,7 @@ p {
   text-align: center;
   float: right;
 }
+#p1,#p2,#p3{margin: 0;}
 
 #p1 {
   background-color: #d59898;
@@ -44,7 +47,8 @@ p {
 }
 
 section {
-	clear: right;
+  clear: right;
+  padding: .5rem;
 }
 
 .row{
